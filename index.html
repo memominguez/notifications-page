@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body onload="countNotRead()">
+    <div class="container">
+      <header>
+        <div class="notifications">
+          <h1>Notifications</h1>
+          <div class="number"><span class="not-read-count">3</span></div>
+        </div>
+        <div class="mark-all">
+          <p>Mark all as Read</p>
+        </div>
+      </header>
+
+      <main>
+        <article class="friend-message">
+          <div class="img-container">
+            <img src="./assets/images/avatar-mark-webber.webp" alt="Avatar" />
+          </div>
+          <div class="text-container">
+            <p>
+              <span class="friend-name">Mark Webber</span>&nbsp;
+              <span>reacted to your recent post!</span>&nbsp;
+              <span class="other-info">My first tournament today!</span>&nbsp;
+              <span class="mark-read"> &#10039; </span>
+            </p>
+            <p class="time-ago">1m ago</p>
+          </div>
+        </article>
+
+        <article class="friend-message">
+          <div class="img-container">
+            <img src="./assets/images/avatar-angela-gray.webp" alt="Avatar" />
+          </div>
+          <div class="text-container">
+            <p>
+              <span class="friend-name">Angela Gray</span>&nbsp;
+              <span>followed you</span>&nbsp;
+              <span class="other-info"></span>&nbsp;
+              <span class="mark-read"> &#10039; </span>
+            </p>
+            <p class="time-ago">5m ago</p>
+          </div>
+        </article>
+
+        <article class="friend-message">
+          <div class="img-container">
+            <img
+              src="./assets/images/avatar-jacob-thompson.webp"
+              alt="Avatar"
+            />
+          </div>
+          <div class="text-container">
+            <p>
+              <span class="friend-name">Jacob Thompson</span>&nbsp;
+              <span>has joined your group</span>&nbsp;
+              <span class="other-info">Chess Club</span>&nbsp;
+              <span class="mark-read"> &#10039; </span>
+            </p>
+            <p class="time-ago">1 day ago</p>
+          </div>
+        </article>
+
+        <article class="friend-message">
+          <div class="img-container">
+            <img
+              src="./assets/images/avatar-rizky-hasanuddin.webp"
+              alt="Avatar"
+            />
+          </div>
+          <div class="text-container">
+            <p>
+              <span class="friend-name">Rizky Hasanuddin</span>&nbsp;
+              <span>sent you a private message</span>&nbsp;
+              <span class="other-info"></span>&nbsp;
+              <span class="mark-read"> &#10039; </span>
+            </p>
+            <p class="time-ago">5 days ago</p>
+
+            <div class="message-content">
+              <p>
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="friend-message">
+          <div class="img-container">
+            <img
+              src="./assets/images/avatar-kimberly-smith.webp"
+              alt="Avatar"
+            />
+          </div>
+          <div class="text-container">
+            <p>
+              <span class="friend-name">Kimberly Smith</span>&nbsp;
+              <span>commented on your picture</span>&nbsp;
+              <span class="other-info"></span>&nbsp;
+              <span class="mark-read"> &#10039; </span>
+            </p>
+            <p class="time-ago">1 week ago</p>
+          </div>
+          <div class="inline-pic">
+            <img src="./assets/images/image-chess.webp" alt="pic" />
+          </div>
+        </article>
+
+        <article class="friend-message">
+          <div class="img-container">
+            <img
+              src="./assets/images/avatar-nathan-peterson.webp"
+              alt="Avatar"
+            />
+          </div>
+          <div class="text-container">
+            <p>
+              <span class="friend-name">Nathan Peterson</span>&nbsp;
+              <span>reacted to your recent post!</span>&nbsp;
+              <span class="other-info"
+                >5 end-game strategies to increase your win rate</span
+              >&nbsp;
+              <span class="mark-read"> &#10039; </span>
+            </p>
+            <p class="time-ago">2 weeks ago</p>
+          </div>
+        </article>
+
+        <article class="friend-message">
+          <div class="img-container">
+            <img src="./assets/images/avatar-anna-kim.webp" alt="Avatar" />
+          </div>
+          <div class="text-container">
+            <p>
+              <span class="friend-name">Anna Kim</span>&nbsp;
+              <span>left the group</span>&nbsp;
+              <span class="other-info">Chess Club</span>&nbsp;
+              <span class="mark-read"> &#10039; </span>
+            </p>
+            <p class="time-ago">2 weeks ago</p>
+          </div>
+        </article>
+      </main>
+
+      <div class="attribution">
+        <div>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor
+          </a>.
+        </div>
+        <div>Coded by <a href="#">Guillermo Dominguez</a>.</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
