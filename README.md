@@ -35,8 +35,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: Pending
-- Live Site URL: Pending
+
+- Solution URL:  [Github repository](https://github.com/memominguez/notifications-page)
+- Live Site URL:  [Github pages](https://memominguez.github.io/notifications-page/)
+
 
 ## My process
 
